@@ -1,5 +1,5 @@
 # EDAMI23l Task 3 : Clustering
-# Authors: Furkan Salman
+# Author: Furkan Salman
 
 # Problem: Given a dataset of red wine, cluster the wines into groups of wine quality.
 
