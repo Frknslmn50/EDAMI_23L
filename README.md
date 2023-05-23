@@ -3,3 +3,4 @@
 * Lab2 - Association Rules
 * Task1 - Discovering Association Rules for Edible-Poisonous Mushroom Classification
 * Task2 - Discovering Sequential Rules for Hypoglycemic Symptomps
+* Task3 - Clustering for Wine Qualities
