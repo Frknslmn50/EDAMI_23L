@@ -22,14 +22,14 @@ def plot_clusters(X, y, clusters):
 
     # Plot actual classes
     scatter1 = ax1.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap="Set2")
-    ax1.set_title("Actual classes")
+    ax1.set_title("Actual Clusters")
     legend1 = ax1.legend(*scatter1.legend_elements(), title="Classes", loc="upper right")
     ax1.add_artist(legend1)
 
     # Plot predicted clusters
     scatter2 = ax2.scatter(X_pca[:, 0], X_pca[:, 1], c=clusters, cmap="Set2")
-    ax2.set_title("Predicted clusters")
+    ax2.set_title("Predicted Clusters")
     legend2 = ax2.legend(*scatter2.legend_elements(), title="Clusters", loc="upper right")
     ax2.add_artist(legend2)
-    plt.title("Comparison of Actual Clusters and Predicted Clusters")
+    fig.suptitle("Comparison of Actual and Predicted Clusters", fontsize=16)
     plt.show()
