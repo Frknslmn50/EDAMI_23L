@@ -66,6 +66,8 @@ print(labels)
 
 - To generate a confusion matrix for evaluating the clustering performance, use the `heatmap.py` module located in the `dbscan_lib` directory.
 
+- To get the evaluations of the clustering performance(scores, cluster plots, heatmap), use the `evaluate_clsuters.py` module located in the `dbscan_lib` directory.
+
 ## Datasets
 Following are the datasets used in the DBSCAN_Implementation.ipynb notebook:
 - [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris)
